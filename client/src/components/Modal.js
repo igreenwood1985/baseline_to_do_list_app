@@ -32,6 +32,7 @@ const Modal = ({mode = 'create', setShowModal, getData, task}) => {
       }
     }
 
+    //Fetched tasks through server from SQL database for users to edit
     const editData = async(e) => {
       e.preventDefault()
       try{
